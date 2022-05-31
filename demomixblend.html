@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .blackbox {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 10px;
+            /* transform: rotate(44deg); */
+            background-color: black;
+            /* mix-blend-mode: difference; */
+            z-index: 2;
+
+
+        }
+
+        .whitebox {
+            z-index: 1;
+            width: 400px;
+            height: 100px;
+            position: absolute;
+            top: 10px;
+            /* transform: rotate(44deg); */
+            background-color: white;
+            /* mix-blend-mode: difference; */
+
+        }
+
+        .subtitle {
+            z-index: 3;
+            color: white;
+
+            position: absolute;
+            top: 10px;
+            mix-blend-mode: difference;
+        }
+        body{
+            background-color: wheat;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="blackbox"></div>
+    <!-- <div class="whitebox"></div> -->
+    <p class="subtitle"> con más de 5 años experiencia en haciendo paginas web</p>
+</body>
+
+</html>

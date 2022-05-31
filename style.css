@@ -1,0 +1,15 @@
+:root {
+    --gray-color: #EFEFEF;
+    --green-color: #00CD7D;
+    --red-color: #FF5F5F;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+hr {
+    opacity: 17%;
+}

@@ -1,0 +1,26 @@
+.services {
+    margin-left: 30vw;
+    margin-right: 10vw;
+    display: flex;
+    flex: 3 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.service {
+    padding: 10px;
+    box-sizing: border-box;
+    /* flex: 1; */
+    flex-basis: 32%;
+}
+
+.service .title{
+    font-weight: bold;
+}
+.service:nth-child(odd) {
+    background-color: var(--red-color);
+}
+.service:nth-child(even) {
+    background-color: black;
+    color: white;
+}

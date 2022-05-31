@@ -1,0 +1,39 @@
+ .sidebar {
+     padding: 11px 25px;
+     border-radius: 27px;
+     background-color: var(--gray-color);
+     display: inline-block;
+     position: fixed;
+     top: 50%;
+     left: 27px;
+     transform: translate(0, -50%);
+ }
+
+ .sidebar p {
+     display: table;
+     background-color: white;
+     border-radius: 69px;
+     padding: 10px 16px;
+     margin: 5px;
+ }
+
+ .sidebar div {
+     display: flex;
+     align-items: center;
+ }
+
+ .selected p {
+     font-weight: bold;
+     color: var(--green-color);
+ }
+
+ .selected .dot {
+     background-color: #00CD7D;
+
+ }
+
+ .dot {
+     width: 9px;
+     height: 9px;
+     border-radius: 69px;
+ }

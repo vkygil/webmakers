@@ -1,0 +1,29 @@
+.flex-align-center {
+    display: flex;
+    align-items: center;
+}
+
+.col-gap-10 {
+    column-gap: 10px;
+}
+
+.col-gap-20 {
+    column-gap: 20px;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.full-vh {
+    height: 100vh;
+}
+.vh70 {
+    height: 70vh;
+}
+
+.layer-1 {
+    z-index: 1;
+
+}

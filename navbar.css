@@ -1,0 +1,52 @@
+nav {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+
+}
+
+
+.navbar {
+    transition: .5s;
+    margin-top: 10px;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--gray-color);
+    padding: 9px 27px;
+    width: 64%;
+    border-radius: 420px
+}
+
+.expanded {
+    top: 0;
+
+    padding: 24px 40px;
+    width: 100%;
+    border-radius: 0px;
+    margin: 0px
+}
+
+nav span,
+nav .fa-brands {
+    font-weight: bold;
+}
+
+.nav-right {
+    font-size: small;
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        row-gap: 10px;
+        border-radius: 15px;
+    }
+}
