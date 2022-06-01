@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="burger.css">
     <link rel="stylesheet" href="sidebar.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="helpers.css">
@@ -44,33 +45,46 @@
                         info@webmakers.es
                     </span>
                 </div>
+
             </div>
         </div>
     </nav>
+    <div role="navigation">
+        <div id="menuToggle">
 
-    <main>
-        <div class="sidebar layer-1">
-            <div class="nav-home selected">
-                <div class="dot"></div>
-                <p> Sobre nosotros</p>
-            </div>
-            <div class="nav-servicios">
-                <div class=" dot"></div>
-                <p> Nuestros servicios</p>
-            </div>
-            <div class="nav-equipo">
-                <div class=" dot"></div>
-                <p> Nuestro equipo</p>
+            <input id="toggle" type="checkbox" />
+            <div class="sidebar layer-2" for="toggle">
+                <div class="nav-home selected">
+                    <div class="dot"></div>
+                    <p> Sobre nosotros</p>
+                </div>
+                <div class="nav-servicios">
+                    <div class=" dot"></div>
+                    <p> Nuestros servicios</p>
+                </div>
+                <div class="nav-equipo">
+                    <div class=" dot"></div>
+                    <p> Nuestro equipo</p>
+                </div>
+                <div>
+                    <div class="dot"></div>
+                    <p> Nuestros proyectos</p>
+                </div>
+                <div>
+                    <div class="dot"></div>
+                    <p> Preupuesto</p>
+                </div>
             </div>
             <div>
-                <div class="dot"></div>
-                <p> Nuestros proyectos</p>
-            </div>
-            <div>
-                <div class="dot"></div>
-                <p> Preupuesto</p>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
+    </div>
+    <main>
+
+
         <section id="home">
             <div class="flex main nosotros full-vh">
                 <div style="background-color: black;transform: rotate(328deg); margin-top: -3vw;  margin-right: -4vw;">
@@ -87,7 +101,7 @@
                 </button>
             </div>
         </section>
-<hr>
+        <hr>
         <section id="servicios" class=" vh70">
 
             <div class="services">
@@ -133,7 +147,7 @@
         </section>
         <hr>
         <section id="equipo" class=" full-vh">
-           
+
             <div class="people">
                 <p>
                     <b>Una agencia digital</b> independiente de Barcelona, llena de ideas innovadoras con un equipo
@@ -143,35 +157,35 @@
                     <div>
                         <img src="https://rickandmortyapi.com/api/character/avatar/69.jpeg" alt="">
                         <p class="name">Commander Rick</p>
-                        <p class="occupation">Desarollador</p>
+                        <p class="occupation">Project Managager IT</p>
                     </div>
                 </div>
                 <div class="person">
                     <div>
                         <img src="https://rickandmortyapi.com/api/character/avatar/2.jpeg" alt="">
                         <p class="name">Morty Smith</p>
-                        <p class="occupation">Desarollador</p>
+                        <p class="occupation">Desarollador web</p>
                     </div>
                 </div>
                 <div class="person">
                     <div>
                         <img src="https://rickandmortyapi.com/api/character/avatar/347.jpeg" alt="">
                         <p class="name">President Curtis</p>
-                        <p class="occupation">Desarollador</p>
+                        <p class="occupation">Big Data specialist </p>
                     </div>
                 </div>
                 <div class="person">
                     <div>
                         <img src="https://rickandmortyapi.com/api/character/avatar/43.jpeg" alt="">
                         <p class="name">Big Morty</p>
-                        <p class="occupation">Desarollador</p>
+                        <p class="occupation">Diseñador web</p>
                     </div>
                 </div>
                 <div class="person">
                     <div>
                         <img src="https://rickandmortyapi.com/api/character/avatar/677.jpeg" alt="">
                         <p class="name">Japheth's Son</p>
-                        <p class="occupation">Desarollador</p>
+                        <p class="occupation">Desarollador Back-end</p>
                     </div>
                 </div>
                 <div class="person">
@@ -183,6 +197,22 @@
                 </div>
             </div>
         </section>
+
+        <section>
+
+            <div class="presupuesto">
+                <div>
+                    <p>
+                        Nos alegrará conocerte y saber un poco más en profundidad sobre tu proyecto.
+                    </p>
+                </div>
+                <div>
+                    <input type="text">
+                    <input type="text">
+                </div>
+            </div>
+        </section>
+
     </main>
     <footer>
 

@@ -1,15 +1,32 @@
 :root {
-    --gray-color: #EFEFEF;
-    --green-color: #00CD7D;
-    --red-color: #FF5F5F;
+  --gray-color: #EFEFEF;
+  --green-color: #00CD7D;
+  --red-color: #FF5F5F;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    background-color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+main {
+  overflow-x: hidden;
 }
 
 hr {
-    opacity: 17%;
+  opacity: 17%;
 }
+
+
+
+/* @media (prefers-color-scheme: dark) {
+    body {
+      color: #eee;
+      background: #121212;
+    }
+  
+    body a {
+      color: #809fff;
+    }
+  } */

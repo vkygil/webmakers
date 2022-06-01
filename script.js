@@ -6,7 +6,7 @@ let current = "";
 function scrollFunction() {
 
     //cambio en navbar
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop >100) {
+    if ((document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) && window.screen.width > 768) {
         document.querySelector(".navbar").classList.remove("expanded")
     } else {
         document.querySelector(".navbar").classList.add("expanded")
@@ -32,6 +32,6 @@ function scrollFunction() {
 
 //to remove
 
-window.setTimeout(function () { 
-    window.scrollTo(0, 1725);
-}, 700)
+// window.setTimeout(function () {
+//     window.scrollTo(0, 1725);
+// }, 700)

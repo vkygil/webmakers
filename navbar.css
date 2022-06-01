@@ -21,11 +21,10 @@ nav {
 
 .expanded {
     top: 0;
-
     padding: 24px 40px;
     width: 100%;
     border-radius: 0px;
-    margin: 0px
+    margin: 0px;
 }
 
 nav span,
@@ -41,12 +40,12 @@ nav .fa-brands {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
-    .navbar {
+    .navbar { 
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
         row-gap: 10px;
-        border-radius: 15px;
+        border-radius: 0px;
     }
 }
