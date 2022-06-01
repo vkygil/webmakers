@@ -1,6 +1,14 @@
+.flex {
+    display: flex;
+}
+
 .flex-align-center {
     display: flex;
     align-items: center;
+}
+
+.flex-basis-50 {
+    flex-basis: 50%
 }
 
 .col-gap-10 {
@@ -11,20 +19,22 @@
     column-gap: 20px;
 }
 
-.flex {
-    display: flex;
-
+.center {
+    text-align: center;
 }
 
 .full-vh {
     height: 100vh;
 }
+
 .vh70 {
     height: 70vh;
 }
 
 .layer-1 {
     z-index: 1;
-}.layer-2 {
+}
+
+.layer-2 {
     z-index: 2;
 }

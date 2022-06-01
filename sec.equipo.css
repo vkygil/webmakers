@@ -67,7 +67,7 @@
 .person img {
     width: 100%;
     height: auto;
-    border-radius: 420px;
+    border-radius: 420px;    box-shadow: #b6b6b6 4px 7px 9px 0px;
 }
 
 .person .name {

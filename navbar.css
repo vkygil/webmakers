@@ -3,7 +3,6 @@ nav {
     justify-content: center;
     position: sticky;
     top: 0px;
-
 }
 
 
@@ -40,12 +39,12 @@ nav .fa-brands {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
-    .navbar { 
+    .navbar {
         display: flex;
         flex-wrap: wrap;
+        gap: 5px 46px;
         justify-content: center;
-        width: 100%;
-        row-gap: 10px;
+        width: 100%; 
         border-radius: 0px;
     }
 }

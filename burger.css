@@ -29,12 +29,26 @@
     position: fixed;
 }
 
-#toggle~.sidebar {
-    transform: translateX(273px);  
-    border-bottom-left-radius: 23px
+#toggle, #burger {
+    display: none;
+
 }
 
-#toggle:checked~.sidebar {
-    transform: translateX(0); 
-    display: table !important;  
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    #toggle, #burger {
+        display: block;
+    
+    }
+
+    #toggle~.sidebar {
+        transform: translateX(273px);
+        border-bottom-left-radius: 23px
+    }
+
+    #toggle:checked~.sidebar {
+        transform: translateX(0);
+        display: table !important;
+    }
 }

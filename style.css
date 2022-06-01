@@ -12,6 +12,11 @@ body {
 
 main {
   overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+section {
+  margin-bottom: 90px;
 }
 
 hr {

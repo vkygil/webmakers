@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="sec.nosotros.css">
     <link rel="stylesheet" href="sec.servicios.css">
     <link rel="stylesheet" href="sec.equipo.css">
+    <link rel="stylesheet" href="sec.presupuesto.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -49,44 +50,39 @@
             </div>
         </div>
     </nav>
-    <div role="navigation">
-        <div id="menuToggle">
-
-            <input id="toggle" type="checkbox" />
-            <div class="sidebar layer-2" for="toggle">
-                <div class="nav-home selected">
-                    <div class="dot"></div>
-                    <p> Sobre nosotros</p>
-                </div>
-                <div class="nav-servicios">
-                    <div class=" dot"></div>
-                    <p> Nuestros servicios</p>
-                </div>
-                <div class="nav-equipo">
-                    <div class=" dot"></div>
-                    <p> Nuestro equipo</p>
-                </div>
-                <div>
-                    <div class="dot"></div>
-                    <p> Nuestros proyectos</p>
-                </div>
-                <div>
-                    <div class="dot"></div>
-                    <p> Preupuesto</p>
-                </div>
+    <div id="menuToggle">
+        <input id="toggle" type="checkbox" />
+        <div class="sidebar layer-2" for="toggle">
+            <div class="nav-home selected">
+                <div class="dot"></div>
+                <p> Sobre nosotros</p>
+            </div>
+            <div class="nav-servicios">
+                <div class=" dot"></div>
+                <p> Nuestros servicios</p>
+            </div>
+            <div class="nav-equipo">
+                <div class=" dot"></div>
+                <p> Nuestro equipo</p>
             </div>
             <div>
-                <span></span>
-                <span></span>
-                <span></span>
+                <div class="dot"></div>
+                <p> <s>Nuestros proyectos</s></p>
             </div>
+            <div class="nav-preupuesto">
+                <div class="dot"></div>
+                <p> Preupuesto</p>
+            </div>
+        </div>
+        <div id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
     </div>
     <main>
-
-
         <section id="home">
-            <div class="flex main nosotros full-vh">
+            <div class="flex main nosotros  ">
                 <div style="background-color: black;transform: rotate(328deg); margin-top: -3vw;  margin-right: -4vw;">
 
                     <div class="title">
@@ -96,13 +92,12 @@
                         <p> Web</p>
                     </div>
                 </div>
-                <p class="subtitle"> Con más de 5 años experiencia en haciendo paginas web</p>
+                <p class="subtitle"> Con más de 25 años experiencia en haciendo paginas web</p>
                 <button>Más información
                 </button>
             </div>
         </section>
-        <hr>
-        <section id="servicios" class=" vh70">
+        <section id="servicios" class=" vh70xx">
 
             <div class="services">
                 <h1 style="flex: 1 100%;">Ofrecemos... </h1>
@@ -145,8 +140,7 @@
                 </div>
             </div>
         </section>
-        <hr>
-        <section id="equipo" class=" full-vh">
+        <section id="equipo" class=" full-vhxx">
 
             <div class="people">
                 <p>
@@ -157,7 +151,7 @@
                     <div>
                         <img src="https://rickandmortyapi.com/api/character/avatar/69.jpeg" alt="">
                         <p class="name">Commander Rick</p>
-                        <p class="occupation">Project Managager IT</p>
+                        <p class="occupation">Project Manager IT</p>
                     </div>
                 </div>
                 <div class="person">
@@ -192,27 +186,44 @@
                     <div>
                         <img src="https://rickandmortyapi.com/api/character/avatar/277.jpeg" alt="">
                         <p class="name">Doors Salesman</p>
-                        <p class="occupation">Desarollador</p>
+                        <p class="occupation">Marketing</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section>
+        <section id="preupuesto">
 
-            <div class="presupuesto">
-                <div>
+            <div class="presupuesto flex">
+                <div class="message flex-basis-50 ">
                     <p>
                         Nos alegrará conocerte y saber un poco más en profundidad sobre tu proyecto.
                     </p>
                 </div>
-                <div>
-                    <input type="text">
-                    <input type="text">
-                </div>
+                <form action="#" class="flex-basis-50">
+                    <div class="form flex ">
+                        <p>Contact</p>
+                        <input type="text" placeholder="Nombre">
+                        <input type="text" placeholder="Telefono">
+                        <input type="text" placeholder="Email">
+                        <textarea name="" id="" cols="30" rows="5" placeholder="Mensaje"></textarea>
+
+                        <div>
+                            <input type="checkbox" name="checkpolict" id="checkpolict">
+                            <label for="checkpolict">Acepto la Política de Privacidad</label>
+                        </div>
+                        <div class="center">
+
+                            <button>Enviar</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </section>
-
+        <br>
+        <br>
+        <br>
+        <br>
     </main>
     <footer>
 

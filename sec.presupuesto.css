@@ -1,0 +1,50 @@
+.presupuesto {
+    margin-left: 30vw;
+    margin-right: 10vw;
+
+}
+
+.presupuesto .message {
+    background-color: black;
+    color: var(--red-color);
+    font-size: 3.8vw;
+    padding: 0 30px;
+}
+
+.presupuesto .form p {
+    font-size: 3.8vw;
+    margin: 0;
+    text-align: center;
+}
+
+.presupuesto .form button {
+    color: white;
+    background: black;
+    padding: 13px 17px;
+    border-radius: 8px;
+    border: 0;
+    box-shadow: #616161a1 3px 3px 4px 0px;
+}
+
+.presupuesto .form input,
+textarea {
+    padding: 7px;
+    border-radius: 8px;
+    border: 2px solid #c6c6c6;
+}
+
+.presupuesto .form {
+    flex-direction: column;
+    row-gap: 15px;
+    margin: 0 62px;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.presupuesto form {
+
+    background-color: var(--red-color);
+    padding: 30px;
+
+}
