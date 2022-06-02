@@ -18,13 +18,14 @@
     <link rel="stylesheet" href="css/sec.servicios.css">
     <link rel="stylesheet" href="css/sec.equipo.css">
     <link rel="stylesheet" href="css/sec.presupuesto.css">
+    <!-- <link rel="stylesheet" href="css/darked.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <nav class="layer-1">
+    <nav class="layer-2">
         <div class="navbar expanded">
             <div class="nav-left flex-align-center col-gap-10">
                 <svg width="27" height="27" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -50,28 +51,37 @@
             </div>
         </div>
     </nav>
-    <div id="menuToggle">
+    <div id="menuToggle" class="layer-2">
         <input id="toggle" type="checkbox" />
         <div class="sidebar layer-2" for="toggle">
             <div class="nav-home selected">
                 <div class="dot"></div>
-                <p> Sobre nosotros</p>
+                <a href="#home">
+                    <p> Sobre nosotros</p>
+                </a>
+
             </div>
             <div class="nav-servicios">
                 <div class=" dot"></div>
-                <p> Nuestros servicios</p>
+                <a href="#servicios">
+                    <p> Nuestros servicios</p>
+                </a>
             </div>
             <div class="nav-equipo">
                 <div class=" dot"></div>
-                <p> Nuestro equipo</p>
+                <a href="#equipo">
+                    <p> Nuestro equipo</p>
+                </a>
             </div>
             <div>
                 <div class="dot"></div>
-                <p> <s>Nuestros proyectos</s></p>
+                <p> <s style="text-decoration-color: #262626;">Nuestros proyectos</s></p>
             </div>
             <div class="nav-preupuesto">
                 <div class="dot"></div>
-                <p> Preupuesto</p>
+                <a href="#preupuesto">
+                    <p> Preupuesto</p>
+                </a>
             </div>
         </div>
         <div id="burger">
@@ -149,42 +159,42 @@
                 </p>
                 <div class="person">
                     <div>
-                        <img src="https://rickandmortyapi.com/api/character/avatar/69.jpeg" alt="">
+                        <img src="https://rickandmortyapi.com/api/character/avatar/69.jpeg" alt="Commander Rick">
                         <p class="name">Commander Rick</p>
                         <p class="occupation">Project Manager IT</p>
                     </div>
                 </div>
                 <div class="person">
                     <div>
-                        <img src="https://rickandmortyapi.com/api/character/avatar/2.jpeg" alt="">
+                        <img src="https://rickandmortyapi.com/api/character/avatar/2.jpeg" alt="Morty Smith">
                         <p class="name">Morty Smith</p>
                         <p class="occupation">Desarollador web</p>
                     </div>
                 </div>
                 <div class="person">
                     <div>
-                        <img src="https://rickandmortyapi.com/api/character/avatar/347.jpeg" alt="">
+                        <img src="https://rickandmortyapi.com/api/character/avatar/347.jpeg" alt="President Curtis">
                         <p class="name">President Curtis</p>
                         <p class="occupation">Big Data specialist </p>
                     </div>
                 </div>
                 <div class="person">
                     <div>
-                        <img src="https://rickandmortyapi.com/api/character/avatar/43.jpeg" alt="">
+                        <img src="https://rickandmortyapi.com/api/character/avatar/43.jpeg" alt="Big Morty">
                         <p class="name">Big Morty</p>
                         <p class="occupation">Diseñador web</p>
                     </div>
                 </div>
                 <div class="person">
                     <div>
-                        <img src="https://rickandmortyapi.com/api/character/avatar/677.jpeg" alt="">
+                        <img src="https://rickandmortyapi.com/api/character/avatar/677.jpeg" alt="Japheth's Son">
                         <p class="name">Japheth's Son</p>
                         <p class="occupation">Desarollador Back-end</p>
                     </div>
                 </div>
                 <div class="person">
                     <div>
-                        <img src="https://rickandmortyapi.com/api/character/avatar/277.jpeg" alt="">
+                        <img src="https://rickandmortyapi.com/api/character/avatar/277.jpeg" alt="Doors Salesman">
                         <p class="name">Doors Salesman</p>
                         <p class="occupation">Marketing</p>
                     </div>
@@ -202,7 +212,7 @@
                 </div>
                 <form action="#" class="flex-basis-50">
                     <div class="form flex ">
-                        <p>Contact</p>
+                        <p>Contactar</p>
                         <input type="text" placeholder="Nombre">
                         <input type="text" placeholder="Telefono">
                         <input type="text" placeholder="Email">

@@ -23,7 +23,7 @@
 
 #menuToggle {
     top: 42px;
-    z-index: 1;
+    /* z-index: 1; */
     top: 25px;
     right: 15px;
     position: fixed;
