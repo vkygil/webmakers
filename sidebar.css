@@ -6,8 +6,8 @@
      position: fixed;
      top: 50%;
      left: 27px;
-     transform: translate(0, -50%); 
-     transition: 0.3s !important;  
+     transform: translate(0, -50%);
+     transition: 0.3s !important;
  }
 
  .sidebar p {
@@ -45,7 +45,7 @@
      .sidebar {
          right: 0;
          left: auto;
-         top: 99px;
+         top: 87px;
          transform: none;
          border-radius: 0;
      }
