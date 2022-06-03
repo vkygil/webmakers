@@ -27,3 +27,17 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+/* .title-box {
+  animation: 2s ease-out 0s 1 FadeIn;
+}
+
+@keyframes FadeIn {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(328deg);
+  }
+} */
